@@ -7,7 +7,7 @@ do {
     alert('Oops, too high')
   } else if (guess < age) {
     alert('Oops, too low')
-  } else if (guess === age){
+  } else if (guess === age) {
     alert('You got it!')
     const ans = prompt('Wish to play agin? (y/n)')
     if (ans === 'y') {
