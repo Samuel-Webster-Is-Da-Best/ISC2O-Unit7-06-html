@@ -9,7 +9,7 @@ do {
     alert('Oops, too low')
   } else if (guess === age){
     alert('You got it!')
-    let ans = prompt('Wish to play agin? (y/n)')
+    const ans = prompt('Wish to play agin? (y/n)')
     if (ans === 'y') {
       age = Math.floor(Math.random() * 30 + 1)
       guess = 0
@@ -17,4 +17,4 @@ do {
       alert('input real number please')
     }
   }
-} while (age != guess)
+} while (age !== guess)
